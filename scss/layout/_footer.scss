@@ -1,0 +1,121 @@
+footer{
+   width: 100%;
+   height: auto;
+   background: #2C343E;
+}
+.footer {
+   display: flex;
+   justify-content: space-between;
+   height: 70px;
+   align-items: center;
+   width: 100%;
+   margin-top: 200px;
+   &__title {
+     display: flex;
+     align-items: center;
+   }
+ 
+   &__logo{
+     margin-left: 8px;
+     font-family: 'Fraunces';
+   color: #fff;
+
+   }
+ 
+   &__ul {
+     display: flex;
+     width: 25%;
+     list-style-type: none;
+     justify-content: space-between;
+      margin-left: -270px;
+     &--list {
+       text-transform: uppercase;
+       &-link {
+         text-decoration: none;
+         color: #83888F;
+         font-family: "Barlow";
+         font-weight: 700;
+         font-size: 12px;
+         line-height: 15px;
+       }
+       &-link:hover {
+         text-decoration: none;
+         color: #fff;
+         font-family: "Barlow";
+         font-weight: 700;
+         font-size: 12px;
+         line-height: 15px;
+       }
+     }
+   }
+   &__ull{
+      display: flex;
+      width: 17%;
+      justify-content: space-between;
+      align-items: center;
+   }
+ }
+
+
+ @media only screen and (max-width: 768px) {
+  footer{
+    width: 100%;
+    height: auto;
+    background: #2C343E;
+ }
+ .footer {
+    display: block;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+    &__title {
+      display: flex;
+      align-items: center;
+      margin-left: 35%;
+    }
+  
+    &__logo{
+      margin-left: 8px;
+      font-family: 'Fraunces';
+    color: #fff;
+ 
+    }
+  
+    &__ul {
+      display: flex;
+      width: 40%;
+      list-style-type: none;
+      justify-content: space-between;
+       margin-left: 27%;
+      &--list {
+        text-transform: uppercase;
+        &-link {
+          text-decoration: none;
+          color: #83888F   ;
+          font-family: "Barlow";
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 15px;
+        }
+        &-link:hover {
+          text-decoration: none;
+          color: #fff;
+          font-family: "Barlow";
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+    }
+    &__ull{
+       display: flex;
+       width: 23%;
+       justify-content: space-between;
+       align-items: center;
+       margin-left: 36%;
+    }
+  }
+}
+ 

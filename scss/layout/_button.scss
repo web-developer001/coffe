@@ -1,0 +1,47 @@
+.btn {
+  height: 56px;
+  width: 217px;
+  border-radius: 6px;
+  background-color:$DarkCyan;
+  border: none;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn:hover {
+   height: 56px;
+   width: 217px;
+   border-radius: 6px;
+   background: #66D2CF;
+   border: none;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+ }
+ .btn:active {
+   height: 56px;
+   width: 217px;
+   border-radius: 6px;
+   background: #E2DEDB;
+   border: none;
+   font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+ }
